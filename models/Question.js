@@ -11,7 +11,6 @@ class Question {
       setTimeout(function(){
         const questions = Question._All
         console.log("...Questions Loaded")
-
         resolve(questions)
       }, 1500)
     })
